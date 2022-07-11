@@ -1,8 +1,8 @@
 // To make Channels a bit more chatty about what is coming
 // in via the socket connection
 Pusher.logToConsole = true;
-var pusher = new Pusher('70a80d4e6027ca36af18', {
-  cluster: 'us2',
+var pusher = new Pusher('653f80a13e29cebd21b6', {
+  cluster: 'us3',
   forceTLS: true,
 });
 var bookForm = document.getElementById('book-form');
